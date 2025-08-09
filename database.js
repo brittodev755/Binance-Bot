@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const log = require('./log');
 
-const MONGO_URL = 'mongodb://mongo:mogo@168.231.95.211:27017';
+const MONGO_URL = 'mongodb://mongo:mogo@';
 const DB_NAME = 'binance_bot';
 
 // FLAG: Força uso exclusivo do MongoDB quando conectado
